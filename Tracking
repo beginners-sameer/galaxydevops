@@ -1,0 +1,31 @@
+Planning Phase - JIRA
+SCM - GIT
+CODE Review - SONARQUBE
+BUILD MGMT - Maven
+UNIT TESTING - JUNIT
+PACKAGING - JAR, WAR
+Artifact Repo Mgmt - NEXUS
+DEPLOY TO QA BOXES - CHEF | DOCKER
+TESTING - SEL
+Code Coverage - JACOCO
+RELEASE 
+++++++++++++++++++++++++++++++++++++++
+
+1. Launch an ec2 instance with Amazon 2 with vcpu 2.
+2. Install Docker / add ec2-user to the docker group
+
+JIRA:  8085
+3. go to dockerhub -> docker pull cptactionhank/atlassian-jira    -     https://hub.docker.com/r/cptactionhank/atlassian-jira
+4. run the container ->  docker run --detach --publish 8085:8080 cptactionhank/atlassian-jira:latest
+5. Access the publicip:8085 -> Set it up for me
+6. Logged into jira using sameerzulfiibrahim identity
+7. Create two tasks 1. Login Page creation 2. Welcome page creation and assigned to yourself.
+
+Note : you don't need jira container, infact you can create jira directly in atlassian.net
+
+++++++++++++++++++++++++++++++++++++++
+
+SCM GIT : 
+1. Login to GitHub
+
+i stopped at 54:02
